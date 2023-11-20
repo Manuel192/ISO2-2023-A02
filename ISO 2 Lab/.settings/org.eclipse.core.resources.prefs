@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
-encoding//src/main/java=UTF-8
+encoding//src/main/java=UTF-16
+encoding//src/main/java/A1_05/project_name/App.java=UTF-8
+encoding//src/main/java/Domain_client/Event_Client_Communicator.java=UTF-8
+encoding//src/main/java/Domain_server/Event_Server_DAO.java=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8
