@@ -17,12 +17,14 @@ import java.util.Vector;
  *         <b>Control change:</b></br>
  *         <ul>
  *             <li> <b>0.1.0:</b> Create class.
+ *	       <li> <b>0.2.0:</b> Change methods.
+ *	       <li> <b>0.2.1:</b> Correct wrong encoding.
  *         </ul>
  * </p>
  * 
  * @author A02-Group-B
  * @since 0.1.0
- * @version 0.1.0
+ * @version 0.2.1
  */
 
 public class Broker {
