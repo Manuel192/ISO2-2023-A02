@@ -1,8 +1,27 @@
-package It2-CollectAttendance.Domain_server;
+package A02.Server.Domain;
 
-import It2-CollectAttendance.*;
-import It2-CollectAttendance.Domain_client.*;
-
+/** 
+ * <p>
+ *         <b>Class:</b></br>
+ *         Attendance_Server_DAO.
+ * </p>
+ * 
+ * <p>
+ *         <b>Description:</b></br>
+ *         Data Access Object of Attendance.
+ * </p>
+ * 
+ * <p>
+ *         <b>Control change:</b></br>
+ *         <ul>
+ *             <li> <b>0.1.0:</b> Add the add and read methods.
+ *         </ul>
+ * </p>
+ * 
+ * @author A02-Group-A
+ * @since 0.1.0
+ * @version 0.1.0
+ */
 public class Attendance_Server_DAO {
 
 	/**
