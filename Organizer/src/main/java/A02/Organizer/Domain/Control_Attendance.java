@@ -1,8 +1,33 @@
-package It2-CollectAttendance.Domain_client;
+package A02.Organizer.Domain;
 
+import javax.swing.ImageIcon;
+
+/** 
+ * <p>
+ *         <b>Class:</b></br>
+ *         Control_Attendace.
+ * </p>
+ * 
+ * <p>
+ *         <b>Description:</b></br>
+ *         Class to Control operations attendace.
+ * </p>
+ * 
+ * <p>
+ *         <b>Control change:</b></br>
+ *         <ul>
+ *             <li> <b>0.1.0:</b> Add Methods.
+ *             <li> <b>0.1.1:</b> Add Javadoc.
+ *         </ul>
+ * </p>
+ * 
+ * @author A02-Group-A
+ * @since 0.1.0
+ * @version 0.1.1
+ */
 public class Control_Attendance {
 
-	public static Img generateQR() {
+	public static ImageIcon generateQR() {
 		// TODO - implement Control_Attendance.generateQR
 		throw new UnsupportedOperationException();
 	}

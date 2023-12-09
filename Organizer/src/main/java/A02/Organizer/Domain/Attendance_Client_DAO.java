@@ -1,5 +1,28 @@
-package It2-CollectAttendance.Domain_client;
+package A02.Organizer.Domain;
 
+/** 
+ * <p>
+ *         <b>Class:</b></br>
+ *         Attendance_Client_DAO.
+ * </p>
+ * 
+ * <p>
+ *         <b>Description:</b></br>
+ *         Data Access Object of Attendance.
+ * </p>
+ * 
+ * <p>
+ *         <b>Control change:</b></br>
+ *         <ul>
+ *             <li> <b>0.1.0:</b> Add Methods.
+ *             <li> <b>0.1.1:</b> Add Javadoc.
+ *         </ul>
+ * </p>
+ * 
+ * @author A02-Group-A
+ * @since 0.1.0
+ * @version 0.1.1
+ */
 public class Attendance_Client_DAO {
 
 	private Attendance attendance;
