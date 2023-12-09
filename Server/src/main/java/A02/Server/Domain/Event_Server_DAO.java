@@ -1,15 +1,26 @@
-package Domain_server;
+package A02.Server.Domain;
 
-import Domain_client.Event;
-
-/**
- * MÉTODOS:
+/** 
+ * <p>
+ *         <b>Class:</b></br>
+ *         Event_Server_DAO.
+ * </p>
  * 
- * ADD --> BOOLEAN
- * UPDATE --> BOOLEAN
- * DELETE --> BOOLEAN
- * READ --> Event
- * RETRIEVE_EVENTS -->list<Event>
+ * <p>
+ *         <b>Description:</b></br>
+ *         Class to manages the access to Event database
+ * </p>
+ * 
+ * <p>
+ *         <b>Control change:</b></br>
+ *         <ul>
+ *             <li> <b>0.1.0:</b> CRUD methods
+ *         </ul>
+ * </p>
+ * 
+ * @author A02-Group-B
+ * @since 0.1.0
+ * @version 0.1.0
  */
 public class Event_Server_DAO {
 	private Event[] _events;
