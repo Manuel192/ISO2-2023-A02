@@ -1,7 +1,28 @@
-package It2-CollectAttendance.Domain_client;
+package A02.Organizer.Domain;
 
-import It2-CollectAttendance.*;
-
+/** 
+ * <p>
+ *         <b>Class:</b></br>
+ *         Attendance.
+ * </p>
+ * 
+ * <p>
+ *         <b>Description:</b></br>
+ *         Class that represents Attendance.
+ * </p>
+ * 
+ * <p>
+ *         <b>Control change:</b></br>
+ *         <ul>
+ *             <li> <b>0.1.0:</b> Add Attributes and Methods.
+ *             <li> <b>0.1.1:</b> Add Javadoc.
+ *         </ul>
+ * </p>
+ * 
+ * @author A02-Group-A
+ * @since 0.1.0
+ * @version 0.1.1
+ */
 public class Attendance {
 
 	private int collectID;
