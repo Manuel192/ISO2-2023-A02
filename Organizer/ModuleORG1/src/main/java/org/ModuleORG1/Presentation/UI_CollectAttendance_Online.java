@@ -1,4 +1,4 @@
-package A02.Organizer.Presentation;
+package org.ModuleORG1.Presentation;
 
 /** 
  * <p>

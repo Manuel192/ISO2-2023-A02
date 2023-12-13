@@ -1,4 +1,4 @@
-package A02.Organizer.Domain;
+package org.ModuleORG1.Domain;
 
 import javax.swing.ImageIcon;
 
