@@ -1,4 +1,4 @@
-package A02.Attendee.Domain;
+package org.ModuleATT1.Domain;
 
 import java.sql.Time;
 
