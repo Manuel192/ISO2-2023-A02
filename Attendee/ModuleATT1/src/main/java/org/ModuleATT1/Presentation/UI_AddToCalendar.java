@@ -1,4 +1,4 @@
-package A02.Attendee.Presentation;
+package org.ModuleATT1.Presentation;
 
 /** 
  * <p>

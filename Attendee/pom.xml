@@ -1,55 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>A02</groupId>
-  <artifactId>Attendee</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
-  <name>Attendee</name>
-  <url>http://maven.apache.org</url>
+	<!-- The basics -->
+	<groupId>A02</groupId>
+	<artifactId>Attendee</artifactId>
+	<version>0.1.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+	<name>Attendee</name>
+	<url>http://maven.apache.org</url>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-all</artifactId>
-      <version>1.8.5</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-integration</artifactId>
-      <version>1.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>net.avh4.util</groupId>
-      <artifactId>imagecomparison</artifactId>
-      <version>0.0.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<!-- Build Configuration-->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<!-- More Project Information -->
+	<description>Organizer System from Attendance</description>
+	<inceptionYear>2023</inceptionYear>
+	<organization>
+		<name>A02</name>
+		<url>https://github.com/ManuehGitHub/ISO2-2023-A02</url>
+	</organization>
+	<developers>
+		<developer>
+			<id>ManuehGitHub</id>
+			<name>Manuel Perales Briones</name>
+			<email>manuel.perales@alu.uclm.es</email>
+			<roles>
+				<role>Project Manager</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>MiguelAruiz</id>
+			<name>Miguel Ángel Ruiz Arreaza</name>
+			<email>miguelangel.ruiz9@alu.uclm.ess</email>
+			<roles>
+				<role>Secretary</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>elena-17</id>
+			<name>Elena Ballesteros Morallón</name>
+			<email>elena.ballesteros2@alu.uclm.es</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>Lucia-Martin17</id>
+			<name>Lucía Martín Serrano</name>
+			<email>lucia.martin17@alu.uclm.es</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>hnevesg</id>
+			<name>Helena Neves García</name>
+			<email>helena.neves@alu.uclm.es</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>lilofthea</id>
+			<name>Aymina Yilik</name>
+			<email>aymina.yilik@alu.uclm.es</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>dilankubay</id>
+			<name>Dilan Kubay</name>
+			<email>dilan.kubay@alu.uclm.es</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<!-- Dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.8.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-integration</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.avh4.util</groupId>
+			<artifactId>imagecomparison</artifactId>
+			<version>0.0.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>ModuleATT1</module>
+	</modules>
 </project>
