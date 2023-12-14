@@ -1,20 +1,20 @@
-package A02.Server.Domain;
+package org.ModuleSER1.Domain;
 
 /** 
  * <p>
  *         <b>Class:</b></br>
- *         Assignment.
+ *         Assignment_Server_DAO.
  * </p>
  * 
  * <p>
  *         <b>Description:</b></br>
- *         Class that represents an Assignment.
+ *         Data Access Object of the Assignment.
  * </p>
  * 
  * <p>
  *         <b>Control change:</b></br>
  *         <ul>
- *             <li> <b>0.1.0:</b> Create class.
+ *             <li> <b>0.1.0:</b> Add methods add and read.
  *         </ul>
  * </p>
  * 
@@ -22,16 +22,13 @@ package A02.Server.Domain;
  * @since 0.1.0
  * @version 0.1.0
  */
-public class Assignment {
-	private int _assignmentID;
-	private String _memberID;
-	private String _courseID;
+public class Assignment_Server_DAO {
 
-	public Assignment(int aAssID, String aMember, int aCourse) {
+	public void add(Attendance aAssignment) {
 		throw new UnsupportedOperationException();
 	}
 
-	public String toString() {
+	public Attendance read(int aAssID) {
 		throw new UnsupportedOperationException();
 	}
 }

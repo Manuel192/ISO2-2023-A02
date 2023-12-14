@@ -1,4 +1,4 @@
-package A02.Server.Domain;
+package org.ModuleSER1.Domain;
 
 import java.util.Vector;
 
