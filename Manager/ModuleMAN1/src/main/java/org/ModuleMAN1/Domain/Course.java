@@ -1,16 +1,17 @@
-package A02.Manager.Domain;
+package org.ModuleMAN1.Domain;
 
+import java.util.Date;
 import java.util.Vector;
 
 /** 
  * <p>
  *         <b>Class:</b></br>
- *         Member.
+ *         Course.
  * </p>
  * 
  * <p>
  *         <b>Description:</b></br>
- *         Class that represents a member.
+ *         Class that represents a course.
  * </p>
  * 
  * <p>
@@ -25,21 +26,16 @@ import java.util.Vector;
  * @since 0.1.0
  * @version 0.1.1
  */
-public class Member {
-	private String _iD;
-	private String _name;
-	private Member_Types _type;
-	public Vector<Course> _courses = new Vector<Course>();
+public class Course {
+	private int _iD;
+	private Date _year;
+	public Vector<Member> _members = new Vector<Member>();
 
-	public Member(String aId, String aName, Member_Types aType) {
+	public Course(int aId, Date aYear) {
 		throw new UnsupportedOperationException();
 	}
 
-	public Member getMember(String aId) {
-		throw new UnsupportedOperationException();
-	}
-
-	public boolean AssignToCourse(int aCourseID) {
+	public Course getCourse(int aId) {
 		throw new UnsupportedOperationException();
 	}
 }
