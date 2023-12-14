@@ -4,12 +4,12 @@
   <parent>
     <artifactId>Server</artifactId>
     <groupId>A02</groupId>
-    <version>0.4.2-SNAPSHOT</version>
+    <version>0.4.3-SNAPSHOT</version>
   </parent>
 
   <groupId>A02</groupId>
   <artifactId>ModuleSER1</artifactId>
-  <version>0.4.2-SNAPSHOT</version>
+  <version>0.4.3-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>ModuleSER1</name>

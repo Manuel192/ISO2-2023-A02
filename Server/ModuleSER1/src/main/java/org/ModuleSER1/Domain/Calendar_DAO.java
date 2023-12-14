@@ -1,45 +1,46 @@
 package org.ModuleSER1.Domain;
 
+
 /** 
  * <p>
  *         <b>Class:</b></br>
- *         Control_Calendar.
+ *         Calendar_DAO.
  * </p>
  * 
  * <p>
  *         <b>Description:</b></br>
- *         Description of the class.
+ *         Calendar Data Access Object.
  * </p>
  * 
  * <p>
  *         <b>Control change:</b></br>
  *         <ul>
- *             <li> <b>0.1.0:</b> Add the addEvent and setAlarm methods.
+ *             <li> <b>0.1.0:</b> Create class.
+ *             <li> <b>0.1.1:</b> Change name and methods due to confusion.
  *         </ul>
  * </p>
  * 
  * @author A02-Group-A
  * @since 0.1.0
- * @version 0.1.0
+ * @version 0.1.1
  */
-public class Control_Calendar {
+public class Calendar_DAO {
 
 	/**
 	 * 
 	 * @param eventID
 	 */
-	public static void addEvent(String eventID) {
-		// TODO - implement Control_Calendar.addEvent
+	public void read(Event eventID) {
+		// TODO - implement Calendar_DAO.read
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
 	 * @param eventID
-	 * @param hour
 	 */
-	public static void setAlarm(String eventID, int hour) {
-		// TODO - implement Control_Calendar.setAlarm
+	public Event update(Event eventID) {
+		// TODO - implement Calendar_DAO.update
 		throw new UnsupportedOperationException();
 	}
 
