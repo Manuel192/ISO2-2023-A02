@@ -1,23 +1,20 @@
-package A02.Manager.Domain;
-
-import java.util.Date;
-import java.util.Vector;
+package org.ModuleMAN1.Presentation;
 
 /** 
  * <p>
  *         <b>Class:</b></br>
- *         Course.
+ *         UI_AssignToCourse.
  * </p>
  * 
  * <p>
  *         <b>Description:</b></br>
- *         Class that represents a course.
+ *         User Interface class to assign a member to a course.
  * </p>
  * 
  * <p>
  *         <b>Control change:</b></br>
  *         <ul>
- *             <li> <b>0.1.0:</b> Add Attributes and Methods.
+ *             <li> <b>0.1.0:</b> Add Interface buttons and methods.
  *             <li> <b>0.1.1:</b> Add Javadoc.
  *         </ul>
  * </p>
@@ -26,16 +23,17 @@ import java.util.Vector;
  * @since 0.1.0
  * @version 0.1.1
  */
-public class Course {
-	private int _iD;
-	private Date _year;
-	public Vector<Member> _members = new Vector<Member>();
+public class UI_AssignToCourse {
 
-	public Course(int aId, Date aYear) {
+	public void clickSelectCourse() {
 		throw new UnsupportedOperationException();
 	}
 
-	public Course getCourse(int aId) {
+	public void clickChangeCourse() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void clickExitFromCourse() {
 		throw new UnsupportedOperationException();
 	}
 }
