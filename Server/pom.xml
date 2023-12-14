@@ -123,6 +123,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<!-- Modules -->
 	<modules>
 		<module>ModuleSER1</module>
 	</modules>
