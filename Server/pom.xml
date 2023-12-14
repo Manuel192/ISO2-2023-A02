@@ -5,7 +5,7 @@
 	<!-- The basics -->
 	<groupId>A02</groupId>
 	<artifactId>Server</artifactId>
-	<version>0.4.2-SNAPSHOT</version>
+	<version>0.4.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Server</name>
