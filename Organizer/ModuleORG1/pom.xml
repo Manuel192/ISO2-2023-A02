@@ -4,12 +4,12 @@
   <parent>
     <artifactId>Organizer</artifactId>
     <groupId>A02</groupId>
-    <version>0.2.2-SNAPSHOT</version>
+    <version>0.2.3-SNAPSHOT</version>
   </parent>
 
   <groupId>A02</groupId>
   <artifactId>ModuleORG1</artifactId>
-  <version>0.2.2-SNAPSHOT</version>
+  <version>0.2.3-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>ModuleORG1</name>
