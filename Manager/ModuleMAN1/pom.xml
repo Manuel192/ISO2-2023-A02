@@ -4,7 +4,7 @@
   <parent>
     <artifactId>Manager</artifactId>
     <groupId>A02</groupId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.2-SNAPSHOT</version>
   </parent>
 
   <groupId>A02</groupId>
